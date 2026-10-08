@@ -1,1 +1,6 @@
 vendor-bin/**/composer.lock binary
+
+# exclude build/test files from archive
+/.config          export-ignore
+/.github          export-ignore
+/tests            export-ignore
